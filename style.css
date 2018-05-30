@@ -1,0 +1,26 @@
+.navarea {
+	background-color: #4256f4;
+}
+
+.navarea li {
+	display: inline-block;
+    color: #b1e9ef;
+}
+
+.navarea li:hover {
+    background-color: #41e5f4;
+    color: #4e6366;
+}
+
+.navarea li a {
+	color: inherit;
+    text-decoration: none;
+    font-family: "Arial"; sans-serif;
+}
+.navarea ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    padding-bottom: 14px;
+	text-align: center;
+}
