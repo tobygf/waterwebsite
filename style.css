@@ -6,27 +6,35 @@
 }
 
 .navarea img {
-    height: 25vh;
+    max-width: 80vw;
+    max-height: 50vh;
     display:block;
-    margin-left: calc((100vw - 66.666666666667vh) / 2);
+    margin: auto;
     margin-bottom: 3vh;
 }
 
 .navarea li {
 	display: inline-block;
     color: #b1e9ef;
+    border-style: solid;
+    border-color: #b1e9ef;
+    border-width: 5px;
 }
 
 .navarea li:hover {
     background-color: #41e5f4;
     color: #4e6366;
+    border-color: #4e6366;
 }
 
 .navarea li a {
 	color: inherit;
     text-decoration: none;
-    font-family: "Arial"; sans-serif;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    margin: 10px;
 }
+
 .navarea ul {
 	list-style-type: none;
 	margin: 0;
@@ -35,6 +43,12 @@
 	text-align: center;
 }
 
-.bodytext {
-    margin-top: 350px;
+.bodytitle h1 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+}
+.bodytext p {
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 20px;
 }
