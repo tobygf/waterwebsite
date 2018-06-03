@@ -20,16 +20,15 @@ html body {
 
 .navarea li {
 	display: inline-block;
-    color: #b1e9ef;
+    color: #8e0909;
+    background-color: #ff2a2a;
     border-style: solid;
-    border-color: #b1e9ef;
+    border-color: #8e0909;
     border-width: 5px;
 }
 
 .navarea li:hover {
-    background-color: #41e5f4;
-    color: #4e6366;
-    border-color: #4e6366;
+    background-color: #ff0000;
 }
 
 .navarea li a {
